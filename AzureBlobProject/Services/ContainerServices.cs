@@ -34,9 +34,23 @@ namespace AzureBlobProject.Services
             return containerName;
         }
 
-        public Task<List<string>> GetAllContainerAndBlob()
+        public async Task<List<string>> GetAllContainerAndBlob()
         {
-            throw new NotImplementedException();
+            List<string> containerAndBlobName = new();
+            containerAndBlobName.Add("Account Name : " + _blobClient.AccountName);
+            containerAndBlobName.Add("------------------------------------------");
+            await foreach(BlobContainerItem blobContainerItem in _blobClient.GetBlobContainersAsync())
+            {
+                containerAndBlobName.Add("--" + blobContainerItem.Name);
+                BlobContainerClient blobContainer =
+                    _blobClient.GetBlobContainerClient(blobContainerItem.Name);
+                await foreach(BlobItem blobItem in blobContainer.GetBlobsAsync())
+                {
+                    containerAndBlobName.Add("------" + blobItem.Name);
+                }
+                containerAndBlobName.Add("------------------------------------------");
+            }
+            return containerAndBlobName;
         }
     }
 }
