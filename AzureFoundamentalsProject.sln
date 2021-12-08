@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctionExample", "Azu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTangyFunc", "AzureTangyFunc\AzureTangyFunc.csproj", "{5E4F96D3-EE92-4884-A79B-22538002FEE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLogicApp", "AzureLogicApp\AzureLogicApp.csproj", "{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureLogicAppExample", "AzureLogicAppExample", "{651436B3-0849-4810-85E8-5BC419A6E618}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{5E4F96D3-EE92-4884-A79B-22538002FEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E4F96D3-EE92-4884-A79B-22538002FEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E4F96D3-EE92-4884-A79B-22538002FEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +47,7 @@ Global
 		{9DA9A703-70F5-4E3F-8205-9436DD67F129} = {7D603E84-7640-4470-81ED-A7F94A184757}
 		{DFA09123-E56A-4B2D-A618-6AE8060D3530} = {0D7F530C-1CDC-452E-85B9-8E74B5D0DD47}
 		{5E4F96D3-EE92-4884-A79B-22538002FEE3} = {0D7F530C-1CDC-452E-85B9-8E74B5D0DD47}
+		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C} = {651436B3-0849-4810-85E8-5BC419A6E618}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32BC2D52-0657-454C-B812-680AF057D647}
