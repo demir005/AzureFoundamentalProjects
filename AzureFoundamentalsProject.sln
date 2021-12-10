@@ -13,9 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctionExample", "Azu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTangyFunc", "AzureTangyFunc\AzureTangyFunc.csproj", "{5E4F96D3-EE92-4884-A79B-22538002FEE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLogicApp", "AzureLogicApp\AzureLogicApp.csproj", "{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLogicApp", "AzureLogicApp\AzureLogicApp.csproj", "{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureLogicAppExample", "AzureLogicAppExample", "{651436B3-0849-4810-85E8-5BC419A6E618}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureRedisCacheExample", "AzureRedisCacheExample", "{E8806BD9-FA57-45EC-9B2C-773F529AFA93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCache", "RedisCache\RedisCache.csproj", "{0AE34B44-6867-41E3-BCE5-20C87768EBEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE34B44-6867-41E3-BCE5-20C87768EBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE34B44-6867-41E3-BCE5-20C87768EBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE34B44-6867-41E3-BCE5-20C87768EBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE34B44-6867-41E3-BCE5-20C87768EBEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{DFA09123-E56A-4B2D-A618-6AE8060D3530} = {0D7F530C-1CDC-452E-85B9-8E74B5D0DD47}
 		{5E4F96D3-EE92-4884-A79B-22538002FEE3} = {0D7F530C-1CDC-452E-85B9-8E74B5D0DD47}
 		{305BF5A6-50A0-423C-83DF-4D8E39B5C02C} = {651436B3-0849-4810-85E8-5BC419A6E618}
+		{0AE34B44-6867-41E3-BCE5-20C87768EBEF} = {E8806BD9-FA57-45EC-9B2C-773F529AFA93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32BC2D52-0657-454C-B812-680AF057D647}
